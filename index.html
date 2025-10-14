@@ -15,14 +15,17 @@
     </div>
   </header>
 
-  <main class="wrap layout">
-    <!-- Main card -->
-    <section id="card" class="card" aria-live="polite" aria-atomic="true">
-      <!-- JS injects the current question -->
-    </section>
+  <main class="wrap layout panel-closed">
+    <!-- Question card (JS injects content) -->
+    <section id="card" class="card" aria-live="polite" aria-atomic="true"></section>
 
-    <!-- Study panel (always available) -->
-    <aside class="panel" aria-label="Study Panel">
+    <!-- Toggle button for the study panel -->
+    <button id="panelToggleBtn" class="btn btn--ghost btn--small" type="button" aria-expanded="false">
+      Show Study Panel
+    </button>
+
+    <!-- Study Panel (starts hidden) -->
+    <aside class="panel" aria-label="Study Panel" hidden>
       <h2>Study Panel</h2>
       <div class="stat"><span>Answered</span><strong id="statAnswered">0/0</strong></div>
       <div class="stat"><span>Correct</span><strong id="statCorrect">0</strong></div>
@@ -70,3 +73,4 @@
   <script src="app.js"></script>
 </body>
 </html>
+
