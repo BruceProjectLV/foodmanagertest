@@ -7,3 +7,6 @@ window.QUESTIONS = [
   { id: 3, text: "Which one is a primary color of light?", options: ["Yellow","Green","Black","Magenta"], correctIndex: 1 },
   { id: 4, text: "Which planet is known as the Red Planet?", options: ["Venus","Jupiter","Mars","Mercury"], correctIndex: 2 }
 ];
+
+// TIP: To add more, copy ↓ and update id/text/options/correctIndex
+// { id: 5, text: "Your question...", options: ["A","B","C","D"], correctIndex: 1 },
