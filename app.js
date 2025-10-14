@@ -165,39 +165,56 @@
   }
 
   // Submit ANYTIME: show current score + full review even if blanks
-  function submitAnytime() {
-    const letters = ["A","B","C","D"];
-    let correct = 0;
-    QUESTIONS.forEach((q, i) => {
-      if (answers[i] !== null && answers[i] === q.correctIndex) correct++;
-    });
+ // Submit ANYTIME: score over ANSWERED ONLY, still show full review
+function submitAnytime() {
+  const letters = ["A","B","C","D"];
 
-    el.scoreLine.textContent =
-      `Score so far: ${correct} / ${QUESTIONS.length} (${Math.round((correct/Math.max(1,QUESTIONS.length))*100)}%).` +
-      (answers.some(a => a === null) ? " (Some questions are unanswered.)" : "");
+  const answeredIdx = [];
+  answers.forEach((a, i) => { if (a !== null) answeredIdx.push(i); });
 
-    // Full review
-    el.reviewList.innerHTML = "";
-    QUESTIONS.forEach((q, i) => {
-      const user = answers[i];
-      const isCorrect = user === q.correctIndex;
-      const item = document.createElement("div");
-      item.className = "item";
-      item.innerHTML = `
-        <div><strong>Q${i+1}.</strong> ${q.text}</div>
-        <div>
-          <span class="badge ${isCorrect ? "ok" : "no"}">${isCorrect ? "Correct" : (user==null?"Unanswered":"Incorrect")}</span>
-        </div>
-        <div><strong>Your answer:</strong> ${user != null ? `${letters[user]}. ${q.options[user]}` : "—"}</div>
-        <div><strong>Correct answer:</strong> ${letters[q.correctIndex]}. ${q.options[q.correctIndex]}</div>
-      `;
-      el.reviewList.appendChild(item);
-    });
+  const answeredCount = answeredIdx.length;
+  let correct = 0;
+  answeredIdx.forEach(i => {
+    if (answers[i] === QUESTIONS[i].correctIndex) correct++;
+  });
 
-    el.results.hidden = false;
-    updatePanel();
-    if (revealOnCard) markCardReveal();
-  }
+  const pct = answeredCount ? Math.round((correct / answeredCount) * 100) : 0;
+  const unanswered = QUESTIONS.length - answeredCount;
+
+  el.scoreLine.textContent =
+    `Score so far: ${correct} / ${answeredCount} (${pct}%).` +
+    (unanswered ? ` (${unanswered} unanswered)` : "");
+
+  // Full review (all questions) so you can study everything
+  el.reviewList.innerHTML = "";
+  QUESTIONS.forEach((q, i) => {
+    const user = answers[i];
+    const isCorrect = user === q.correctIndex;
+    const item = document.createElement("div");
+    item.className = "item";
+    item.innerHTML = `
+      <div><strong>Q${i+1}.</strong> ${q.text}</div>
+      <div>
+        <span class="badge ${
+          user === null ? "no" : (isCorrect ? "ok" : "no")
+        }">${
+          user === null ? "Unanswered" : (isCorrect ? "Correct" : "Incorrect")
+        }</span>
+      </div>
+      <div><strong>Your answer:</strong> ${
+        user != null ? `${letters[user]}. ${q.options[user]}` : "—"
+      }</div>
+      <div><strong>Correct answer:</strong> ${
+        letters[q.correctIndex]
+      }. ${q.options[q.correctIndex]}</div>
+    `;
+    el.reviewList.appendChild(item);
+  });
+
+  el.results.hidden = false;
+  updatePanel();
+  if (revealOnCard) markCardReveal();
+}
 
   function restart() {
     for (let i = 0; i < answers.length; i++) answers[i] = null;
