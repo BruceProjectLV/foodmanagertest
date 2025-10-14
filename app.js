@@ -1,4 +1,4 @@
-// app.js — Study Mode: submit anytime, see score, optional reveal
+// app.js — Study Mode with panel hidden by default + toggle + submit anytime
 (() => {
   const el = {
     card: document.getElementById("card"),
@@ -18,6 +18,10 @@
     quickReview: document.getElementById("quickReview"),
     checkBtn: document.getElementById("checkBtn"),
     toggleRevealBtn: document.getElementById("toggleRevealBtn"),
+    // Panel toggle + layout
+    panel: document.querySelector(".panel"),
+    layout: document.querySelector(".layout"),
+    panelToggleBtn: document.getElementById("panelToggleBtn"),
   };
 
   const QUESTIONS = window.QUESTIONS || [];
@@ -25,7 +29,7 @@
   const answers = new Array(QUESTIONS.length).fill(null); // store user selections (0-3)
   let revealOnCard = false;             // toggle showing correct answer on current card
 
-  // Persist to localStorage so refresh doesn’t lose work
+  // Persist answers so refresh doesn’t lose work
   const KEY = "mcq-answers";
   const saved = JSON.parse(localStorage.getItem(KEY) || "null");
   if (Array.isArray(saved) && saved.length === answers.length) {
@@ -54,13 +58,13 @@
     const total = QUESTIONS.length || 1;
     const accuracy = answered ? Math.round((correct / answered) * 100) : 0;
 
-    el.statAnswered.textContent = `${answered}/${total}`;
-    el.statCorrect.textContent = `${correct}`;
-    el.statAccuracy.textContent = `${accuracy}%`;
+    if (el.statAnswered) el.statAnswered.textContent = `${answered}/${total}`;
+    if (el.statCorrect) el.statCorrect.textContent = `${correct}`;
+    if (el.statAccuracy) el.statAccuracy.textContent = `${accuracy}%`;
   }
 
   function renderQuickReview() {
-    // Show only answered items for a compact study view
+    if (!el.quickReview) return;
     el.quickReview.innerHTML = "";
     const letters = ["A","B","C","D"];
     answers.forEach((a, i) => {
@@ -94,7 +98,7 @@
       el.nextBtn.disabled = true;
       el.prevBtn.disabled = true;
       el.submitBtn.disabled = true;
-      el.checkBtn.disabled = true;
+      if (el.checkBtn) el.checkBtn.disabled = true;
       return;
     }
 
@@ -160,7 +164,7 @@
     }
   }
 
-  // Submit ANYTIME: no blocking if blanks exist
+  // Submit ANYTIME: show current score + full review even if blanks
   function submitAnytime() {
     const letters = ["A","B","C","D"];
     let correct = 0;
@@ -172,7 +176,7 @@
       `Score so far: ${correct} / ${QUESTIONS.length} (${Math.round((correct/Math.max(1,QUESTIONS.length))*100)}%).` +
       (answers.some(a => a === null) ? " (Some questions are unanswered.)" : "");
 
-    // Full review (all questions for study)
+    // Full review
     el.reviewList.innerHTML = "";
     QUESTIONS.forEach((q, i) => {
       const user = answers[i];
@@ -191,9 +195,7 @@
     });
 
     el.results.hidden = false;
-    // Also refresh the quick study panel
     updatePanel();
-    // And mark current card if reveal is on
     if (revealOnCard) markCardReveal();
   }
 
@@ -206,26 +208,45 @@
     renderQuestion();
   }
 
-  // Wire up controls
+  // --- Study Panel open/close (hidden by default, remembers choice) ---
+  const PANEL_KEY = "mcq-panel-open";
+  function setPanel(open) {
+    el.panel.hidden = !open;
+    el.layout.classList.toggle("panel-closed", !open);
+    el.panelToggleBtn.setAttribute("aria-expanded", String(open));
+    el.panelToggleBtn.textContent = open ? "Hide Study Panel" : "Show Study Panel";
+    localStorage.setItem(PANEL_KEY, JSON.stringify(open));
+  }
+  const savedOpen = JSON.parse(localStorage.getItem(PANEL_KEY) || "false");
+  setPanel(!!savedOpen);
+
+  el.panelToggleBtn.addEventListener("click", () => {
+    const open = el.panel.hidden; // if hidden, we want to open
+    setPanel(open);
+  });
+
+  // --- Wire up main controls ---
   el.nextBtn.addEventListener("click", next);
   el.prevBtn.addEventListener("click", prev);
   el.submitBtn.addEventListener("click", submitAnytime);
-  el.checkBtn.addEventListener("click", submitAnytime);
+  if (el.checkBtn) el.checkBtn.addEventListener("click", submitAnytime);
   el.restartBtn.addEventListener("click", restart);
-  el.toggleRevealBtn.addEventListener("click", () => {
-    revealOnCard = !revealOnCard;
-    el.toggleRevealBtn.setAttribute("aria-pressed", String(revealOnCard));
-    el.toggleRevealBtn.textContent = revealOnCard ? "Hide Reveal on Card" : "Reveal Correct on Card";
-    renderQuestion(); // re-render to apply/remove outlines
-  });
+  if (el.toggleRevealBtn) {
+    el.toggleRevealBtn.addEventListener("click", () => {
+      revealOnCard = !revealOnCard;
+      el.toggleRevealBtn.setAttribute("aria-pressed", String(revealOnCard));
+      el.toggleRevealBtn.textContent = revealOnCard ? "Hide Reveal on Card" : "Reveal Correct on Card";
+      renderQuestion(); // re-render to apply/remove outlines
+    });
+  }
 
-  // Init
+  // --- Init ---
   if (!QUESTIONS.length) {
     el.card.innerHTML = `<p>No questions found. Please add some in <code>questions.js</code>.</p>`;
     el.nextBtn.disabled = true;
     el.prevBtn.disabled = true;
     el.submitBtn.disabled = true;
-    el.checkBtn.disabled = true;
+    if (el.checkBtn) el.checkBtn.disabled = true;
   } else {
     renderQuestion();
   }
