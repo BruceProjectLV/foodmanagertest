@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Multiple Choice Test — Study Mode</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="wrap header">
+    <h1>Multiple Choice Test</h1>
+    <div id="progressText" class="muted">Question 1 of 4</div>
+    <div class="progress">
+      <div id="progressBar" class="progress__bar"></div>
+    </div>
+  </header>
+
+  <main class="wrap layout">
+    <!-- Main card -->
+    <section id="card" class="card" aria-live="polite" aria-atomic="true">
+      <!-- JS injects the current question -->
+    </section>
+
+    <!-- Study panel (always available) -->
+    <aside class="panel" aria-label="Study Panel">
+      <h2>Study Panel</h2>
+      <div class="stat"><span>Answered</span><strong id="statAnswered">0/0</strong></div>
+      <div class="stat"><span>Correct</span><strong id="statCorrect">0</strong></div>
+      <div class="stat"><span>Accuracy</span><strong id="statAccuracy">0%</strong></div>
+
+      <div class="panel-actions">
+        <button id="checkBtn" class="btn btn--accent" type="button">Check Now</button>
+        <button id="toggleRevealBtn" class="btn btn--ghost" type="button" aria-pressed="false">
+          Reveal Correct on Card
+        </button>
+      </div>
+
+      <details class="mt">
+        <summary>Quick review (answered only)</summary>
+        <div id="quickReview" class="review"></div>
+      </details>
+    </aside>
+
+    <!-- Navigation -->
+    <div class="nav">
+      <button id="prevBtn" class="btn btn--ghost" type="button">← Previous</button>
+      <button id="nextBtn" class="btn" type="button">Next →</button>
+      <button id="submitBtn" class="btn btn--accent" type="button">Submit Anytime</button>
+    </div>
+
+    <!-- Full Results -->
+    <section id="results" class="results" hidden>
+      <h2>Your Results</h2>
+      <p id="scoreLine"></p>
+      <details open>
+        <summary>Review all questions</summary>
+        <div id="reviewList" class="review"></div>
+      </details>
+      <div class="submit">
+        <button id="restartBtn" class="btn btn--ghost" type="button">Restart</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <small>Front-end only. Data stays in this browser.</small>
+  </footer>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
