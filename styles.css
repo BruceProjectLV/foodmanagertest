@@ -17,9 +17,11 @@ body{
   font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
   background:var(--bg); color:var(--text); line-height:1.5;
 }
+
 .wrap{max-width:1000px;margin:auto;padding:16px}
 .header{padding-top:24px}
 .footer{opacity:.7;padding-bottom:24px}
+
 h1{font-size:1.35rem;margin:0 0 .25rem}
 h2{font-size:1.1rem;margin:0 0 .5rem}
 .muted{color:var(--muted);font-size:.95rem}
@@ -67,6 +69,7 @@ h2{font-size:1.1rem;margin:0 0 .5rem}
 .btn:disabled{opacity:.5;cursor:not-allowed}
 .btn--ghost{background:transparent;border:1px solid #2a3142;color:var(--text)}
 .btn--accent{background:var(--accent);color:black}
+.btn--small{padding:8px 12px;font-weight:600;font-size:.95rem}
 
 .results{margin-top:16px}
 .review{display:grid;gap:10px;margin-top:12px}
@@ -80,6 +83,14 @@ h2{font-size:1.1rem;margin:0 0 .5rem}
 .panel-actions{display:grid;gap:8px;margin-top:10px}
 .mt{margin-top:12px}
 
+/* Mobile nicety: if opened on small screens, panel sticks near bottom */
 @media (max-width:899px){
   .panel{position:sticky;bottom:8px}
 }
+
+/* Hidden panel behavior */
+.panel[hidden]{display:none}
+
+/* When panel is closed, force single-column layout (wins over media rule) */
+.layout.panel-closed{grid-template-columns:1fr !important}
+
