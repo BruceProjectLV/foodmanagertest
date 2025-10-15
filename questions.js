@@ -19,7 +19,7 @@ window.QUESTIONS = [
     id: 3,
     text: `All foods served in the food establishment must be from approved sources such as what?`,
     options: [`Myhome`, `An unlicensed street vendor`, `A licensed food distributor`, `None of these`],
-    correctIndex: 1
+    correctIndex: 2
   },
   {
     id: 4,
