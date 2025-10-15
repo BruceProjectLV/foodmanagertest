@@ -23,5 +23,53 @@ window.QUESTIONS = [
     text: `Which of the following statements about the FDA is incorrect?`,
     options: [`It writes the Food Code`, `It inspects all food except meat, poultry, and eggs`, `Requires a person in charge to become a certified food protection`, `Does not require a person in charge to be on-site at all times during operating hour`],
     correctIndex: 3
+  },
+  {
+    id: 5,
+    text: `A serious food borne illness that is commonly transmitted by fecal-oral routes is caused by which virus?`,
+    options: [`E. Coli`, `Yeast`, `Hepatitis A`, `Mold`],
+    correctIndex: 2
+  },
+  {
+    id: 6,
+    text: `Under ideal conditions, bacteria can multiply every __`,
+    options: [`20 minutes`, `40 minutes`, `90 minutes`, `Bacteria do not multiply`],
+    correctIndex: 0
+  },
+  {
+    id: 7,
+    text: `What is the range of temperature for the Danger Zone?`,
+    options: [`0 °F -100°F`, `41 °F -135°F`, `32 °F -212°F`, `45 °F -140°F`],
+    correctIndex: 1
+  },
+  {
+    id: 8,
+    text: `Which bacteria is associated with contaminated lunch meats and grows at temperatures below 41 °F`,
+    options: [`Salmonella`, `Shigella`, `Listeria`, `Bacillus Cereus`],
+    correctIndex: 2
+  },
+  {
+    id: 9,
+    text: `Which parasite is associated with foodborne illnesses caused by undercooked pork?`,
+    options: [`Trichinella`, `Giardia`, `Anisakis`, `Shigella`],
+    correctIndex: 0
+  },
+  {
+    id: 10,
+    text: `Which bacteria is associated with foodborne illnesses caused by undercooked ground beef?`,
+    options: [`Salmonella`, `Shigella`, `Staphylococcus Aureus`, `Shiga toxin producing E. Coli`],
+    correctIndex: 3
+  },
+  {
+    id: 11,
+    text: `What is the main goal for controlling time and temperature?`,
+    options: [`Increase the number of bacteria`, `Reduce and prevent the growth of bacteria`, `Control the acidity and moisture of the food`, `All of these`],
+    correctIndex: 1
+  },
+  {
+    id: 12,
+    text: `Toxins produced by pathogens can be easily eliminated by which activity?`,
+    options: [`Cooking`, `Cooling`, `Reheating`, `None of these`],
+    correctIndex: 3
   }
 ];
