@@ -111,7 +111,7 @@ window.QUESTIONS = [
   {
     id: 19,
     text: `Which of these is NOT a potential chemical hazard?`,
-    options: [`Storing chemicals separately from`, `Spraying pesticides when food is being prepared`, `Wiping down tables with sanitizers when guests are`, `Storing chemicals in the dry food storage area`],
+    options: [`Storing chemicals separately from foods`, `Spraying pesticides when food is being prepared`, `Wiping down tables with sanitizers when guests are`, `Storing chemicals in the dry food storage area`],
     correctIndex: 0
   },
   {
@@ -149,5 +149,89 @@ window.QUESTIONS = [
     text: `Which of these is an example of Ready-to-Eat foods?`,
     options: [`Banana`, `Apple`, `Muffin`, `All of these`],
     correctIndex: 3
+  },
+  {
+    id: 26,
+    text: `Which thermometer is the most widely used to take the internal temperature of food?`,
+    options: [`Thermistor`, `Thermocouple`, `Bimetallic Thermometer`, `Infrared Thermometer`],
+    correctIndex: 2
+  },
+  {
+    id: 27,
+    text: `Which of these is not one of the Big 6 (the most common food borne illness causes)?`,
+    options: [`Salmonella Typhi`, `Shigella`, `Shiga toxin E. Coli`, `Clostridium Botulinum`],
+    correctIndex: 3
+  },
+  {
+    id: 28,
+    text: `What is the correct temperature reading when calibrating a thermometer using the ice point method?`,
+    options: [`32°F`, `41°F`, `0°F`, `45°F`],
+    correctIndex: 0
+  },
+  {
+    id: 29,
+    text: `Raw foods dripping onto ready to eat foods is an example of what type of hazard?`,
+    options: [`Physical Hazard`, `Chemical Hazard`, `Cross Contamination`, `Chemical Contamination`],
+    correctIndex: 2
+  },
+  {
+    id: 30,
+    text: `When should thermometers be re-calibrated?`,
+    options: [`When recently dropped`, `When used for extreme temperatures`, `When they haven't been used for long periods of time`, `All of these`],
+    correctIndex: 3
+  },
+  {
+    id: 31,
+    text: `What type of hazard are we avoiding by using different cutting boards when cutting raw chicken and chopping raw vegetables?`,
+    options: [`Physical Hazard`, `Cross Contamination`, `Chemical Hazard`, `Cross Contact`],
+    correctIndex: 1
+  },
+  {
+    id: 32,
+    text: `Finding ice crystals on a delivery of frozen foods is a sign of what?`,
+    options: [`Time and temperature abuse`, `Pest activity`, `Proper cold storage`, `Proper cooling`],
+    correctIndex: 0
+  },
+  {
+    id: 33,
+    text: `Upon delivery, it is important to make sure cold, non-frozen foods such as raw meats are received at or colder`,
+    options: [`0°F`, `32°F`, `41°F`, `50°F`],
+    correctIndex: 2
+  },
+  {
+    id: 34,
+    text: `Upon delivery, it is important to make sure hot foods such as soups or stews are received at or hotter`,
+    options: [`100°F`, `135°F`, `165°F`, `180°F`],
+    correctIndex: 1
+  },
+  {
+    id: 35,
+    text: `Which of the following is NOT a proper method for thawing frozen foods?`,
+    options: [`Leaving it out on the kitchen`, `Under cold, running water`, `Placing it directly from the freezer to the refrigerator`, `As part of the normal cooking process`],
+    correctIndex: 0
+  },
+  {
+    id: 36,
+    text: `What is the minimum cooking temperature for ground beef?`,
+    options: [`135 °F`, `145°F`, `155 °F`, `165.F`],
+    correctIndex: 2
+  },
+  {
+    id: 37,
+    text: `When taking the temperature of a steak, where should you insert the thermometer?`,
+    options: [`In the thickest part`, `In the thinnest part`, `At the ends`, `None of these`],
+    correctIndex: 0
+  },
+  {
+    id: 38,
+    text: `What is the minimum cooking temperature for pork?`,
+    options: [`135 °F`, `145 °F`, `155 °F`, `165 °F`],
+    correctIndex: 1
+  },
+  {
+    id: 39,
+    text: `Failing to cook chicken to an internal cooking temperature of 165°F is what type of hazard?`,
+    options: [`Physical Hazard`, `Chemical Hazard`, `Biological Hazard`, `Cross Contamination`],
+    correctIndex: 2
   }
 ];
