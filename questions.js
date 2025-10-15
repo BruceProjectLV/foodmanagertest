@@ -71,5 +71,83 @@ window.QUESTIONS = [
     text: `Toxins produced by pathogens can be easily eliminated by which activity?`,
     options: [`Cooking`, `Cooling`, `Reheating`, `None of these`],
     correctIndex: 3
+  },
+  {
+    id: 13,
+    text: `Employees with a headache and a cough who come to work should be restricted to what type of duties?`,
+    options: [`Prepfood`, `Servefood`, `Stockfood`, `Wash Dishes`],
+    correctIndex: 2
+  },
+  {
+    id: 14,
+    text: `Getting a foodborne illness by ingesting infected particles of feces or vomit is commonly associated with which of these viruses?`,
+    options: [`HIV`, `Malaria`, `Norovirus`, `Trichinella`],
+    correctIndex: 2
+  },
+  {
+    id: 15,
+    text: `What must a food handler do when he or she is feeling sick?`,
+    options: [`Notify your Manager`, `Hide your sickness from your Manager`, `Don't tell your manager, but take medication`, `Continue to work until you're no longer able to`],
+    correctIndex: 0
+  },
+  {
+    id: 16,
+    text: `Which of the following is a common symptom of food borne illness?`,
+    options: [`Vomiting`, `Diarrhea`, `Fever`, `All of these`],
+    correctIndex: 3
+  },
+  {
+    id: 17,
+    text: `What should you do at work if you have a headache, cough, and a runny nose?`,
+    options: [`Go to work, but should stay away from all direct food handling`, `Go to work without any restrictions from direct food handling activities`, `Not be able to work at all that day`, `Go to work and serve food`],
+    correctIndex: 0
+  },
+  {
+    id: 18,
+    text: `The FDA has created a food defense program called ALERT. What part of the program includes paying attention to who is in the food facility and also conducting background checks of employees during the hiring process?`,
+    options: [`Assure`, `Look`, `Employees`, `Threat`],
+    correctIndex: 2
+  },
+  {
+    id: 19,
+    text: `Which of these is NOT a potential chemical hazard?`,
+    options: [`Storing chemicals separately from`, `Spraying pesticides when food is being prepared`, `Wiping down tables with sanitizers when guests are`, `Storing chemicals in the dry food storage area`],
+    correctIndex: 0
+  },
+  {
+    id: 20,
+    text: `Which of these is NOT considered a potential physical hazard?`,
+    options: [`FakeNails`, `Plastic pieces from packaging`, `Cherry Pits`, `Pesticides`],
+    correctIndex: 3
+  },
+  {
+    id: 21,
+    text: `Pieces of glass and strands of hair are examples of what type of hazard?`,
+    options: [`Physical hazards`, `Biological hazards`, `Chemical hazards`, `Cross Contamination`],
+    correctIndex: 0
+  },
+  {
+    id: 22,
+    text: `Which of the following is an example of a potential cross contamination 7`,
+    options: [`Cutting raw chicken then slicing melons on the same cutting board`, `Filleting fish then cutting a chocolate cake using the same knife`, `Storing raw foods and ready-to-eat foods on the same shelf in the refrigerator`, `All of these`],
+    correctIndex: 3
+  },
+  {
+    id: 23,
+    text: `Which of these is an example of PHF/TCS foods (Potentially Hazardous Food/Time Controlled for Safety)?`,
+    options: [`Pizza`, `Hamburger`, `Tacos`, `All of these`],
+    correctIndex: 3
+  },
+  {
+    id: 24,
+    text: `Which of these is NOT a PHF/TCS food (Potentially Hazardous Food/Time Controlled for Safety)?`,
+    options: [`Fried Chicken`, `Uncooked Rice`, `Sliced Melons`, `Steak`],
+    correctIndex: 1
+  },
+  {
+    id: 25,
+    text: `Which of these is an example of Ready-to-Eat foods?`,
+    options: [`Banana`, `Apple`, `Muffin`, `All of these`],
+    correctIndex: 3
   }
 ];
