@@ -233,5 +233,125 @@ window.QUESTIONS = [
     text: `Failing to cook chicken to an internal cooking temperature of 165°F is what type of hazard?`,
     options: [`Physical Hazard`, `Chemical Hazard`, `Biological Hazard`, `Cross Contamination`],
     correctIndex: 2
+  },
+  {
+    id: 40,
+    text: `Which of these examples is improper when serving food?`,
+    options: [`Using tongs to serve Ready-to-Eat`, `Holding the dishes from the bottom`, `Using the same utensil for different kinds of food`, `Holding utensils by the handle`],
+    correctIndex: 2
+  },
+  {
+    id: 41,
+    text: `What is the maximum amount of TOTAL time {including transit time, receiving, prep, etc) TCS foods can be in the temperature danger zone?`,
+    options: [`2 hours`, `3 hours`, `4 hours`, `6 hours`],
+    correctIndex: 2
+  },
+  {
+    id: 42,
+    text: `The 2 stage cooling process involves cooling hot foods to 70°F within 2 hours or less and then from 70°F to 41°F in ___ hours or less?`,
+    options: [`6`, `3`, `4`, `2`],
+    correctIndex: 2
+  },
+  {
+    id: 43,
+    text: `Proper cooling must take place within a total of ____ hours or less.`,
+    options: [`2`, `4`, `6`, `8`],
+    correctIndex: 2
+  },
+  {
+    id: 44,
+    text: `Which of these is NOT an acceptable way to cool foods?`,
+    options: [`Place foods in an ice bath`, `Cut foods into smaller pieces`, `Use shallow pans`, `At room temperature`],
+    correctIndex: 3
+  },
+  {
+    id: 45,
+    text: `Where should ready-to-eat foods such as pies and other desserts be stored in the cooler, to prevent cross-contamination?`,
+    options: [`Top shelf above raw foods`, `Middle shelf`, `Bottom shelf below raw foods`, `Anywhere there is space`],
+    correctIndex: 0
+  },
+  {
+    id: 46,
+    text: `What does First In First Out mean?`,
+    options: [`Foods with the latest expiration date should be used first`, `Foods should be used in any order`, `Foods with approaching expiration dates should be used first`, `None of these`],
+    correctIndex: 2
+  },
+  {
+    id: 47,
+    text: `Food in dry storage mus t be ___ inches off the ground.`,
+    options: [`3`, `4`, `6`, `12`],
+    correctIndex: 2
+  },
+  {
+    id: 48,
+    text: `There are __ major food allergens.`,
+    options: [`6`, `9`, `12`, `16`],
+    correctIndex: 1
+  },
+  {
+    id: 49,
+    text: `Which of these is not considered a major food allergen?`,
+    options: [`Soy products`, `Dairy Products`, `Fish`, `Rice Products`],
+    correctIndex: 3
+  },
+  {
+    id: 50,
+    text: `Which of these is not considered a major food allergen?`,
+    options: [`Beef`, `Eggs`, `Shellfish`, `Wheat`],
+    correctIndex: 0
+  },
+  {
+    id: 51,
+    text: `Of the following, what is a likely source for food contamination?`,
+    options: [`Sick employee sneezes on the food`, `Cooking chicken to the required internal correct temperature`, `Using gloves and tongs to serve ready-to-eat foods`, `Chewing gum in the break room during break`],
+    correctIndex: 0
+  },
+  {
+    id: 52,
+    text: `When must you wash your hands?`,
+    options: [`After touching your cell phone`, `After using the restroom`, `Aftereating`, `All of these`],
+    correctIndex: 3
+  },
+  {
+    id: 53,
+    text: `Which of these is required at a handwashing sink?`,
+    options: [`Soap`, `Cold water only`, `Cloth towel for drying`, `Sanitizer`],
+    correctIndex: 0
+  },
+  {
+    id: 54,
+    text: `For food service employees, what is the TOTAL minimum time requirement for washing hands?`,
+    options: [`10 seconds`, `15 seconds`, `20 seconds`, `All of these`],
+    correctIndex: 2
+  },
+  {
+    id: 55,
+    text: `Which of these is NOT an acceptable means to dry hands?`,
+    options: [`Paper Towel`, `Cloth Towel`, `AirDry`, `Hot Air Blower`],
+    correctIndex: 1
+  },
+  {
+    id: 56,
+    text: `Where is handwashing permitted?`,
+    options: [`In any available sink or faucet available`, `Only in designated hand washing stations`, `In the dishwashing sink`, `All of these`],
+    correctIndex: 1
+  },
+  {
+    id: 57,
+    text: `Which of the following is a requirement at a handwashing station?`,
+    options: [`Soap`, `Signage about handwashing requirement`, `A means to dry hands such as a paper towel or air blower`, `All of these`],
+    correctIndex: 3
+  },
+  {
+    id: 58,
+    text: `When must you wash your hands?`,
+    options: [`Before you start working with food`, `After using the restroom`, `After taking out the garbage`, `All of these`],
+    correctIndex: 3
+  },
+  {
+    id: 59,
+    text: `After washing your hands in the restroom, what must you do after entering the food prep area?`,
+    options: [`Put on clean gloves`, `Sanitize your hands with hand sanitizers`, `Wash your hands again before working with food`, `None of these`],
+    correctIndex: 2
   }
 ];
