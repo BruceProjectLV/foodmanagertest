@@ -353,5 +353,77 @@ window.QUESTIONS = [
     text: `After washing your hands in the restroom, what must you do after entering the food prep area?`,
     options: [`Put on clean gloves`, `Sanitize your hands with hand sanitizers`, `Wash your hands again before working with food`, `None of these`],
     correctIndex: 2
+  },
+  {
+    id: 60,
+    text: `When are you required to change gloves?`,
+    options: [`Between tasks`, `When the glove tears`, `After 4 hours`, `All of these`],
+    correctIndex: 3
+  },
+  {
+    id: 61,
+    text: `Which of the following behaviors should employees refrain from doing when preparing food?`,
+    options: [`Eat and drink`, `Smoke`, `Use their cellphone`, `All of these`],
+    correctIndex: 3
+  },
+  {
+    id: 62,
+    text: `What should employees do to show good personal hygiene?`,
+    options: [`Take a shower before coming to work`, `Look presentable with clean clothes and shoes`, `Wear hair restraints to prevent hair from getting onto food`, `All of these`],
+    correctIndex: 3
+  },
+  {
+    id: 63,
+    text: `Which of the following should food handlers do to prevent contamination?`,
+    options: [`Not wear false nails`, `Keep their nails short and clean`, `Not have nail polish on their nails`, `All of these`],
+    correctIndex: 3
+  },
+  {
+    id: 64,
+    text: `What must food handlers do before putting on a new pair of gloves?`,
+    options: [`Wash their hands`, `Use hand sanitizer`, `Shower`, `Shower`],
+    correctIndex: 0
+  },
+  {
+    id: 65,
+    text: `Gloves must be changed at least once every __ hours?`,
+    options: [`6`, `3`, `4`, `2`],
+    correctIndex: 2
+  },
+  {
+    id: 66,
+    text: `Which of the following is an example of improper storage in the walk-in cooler?`,
+    options: [`lightly covered, cooked ribs is cooling on the top shelf`, `raw chicken is stored above lunch meats`, `cheese platter is stored in a closed plastic container above raw`, `frozen chicken is thawing in a pan on the bottom shelf`],
+    correctIndex: 1
+  },
+  {
+    id: 67,
+    text: `Which of the following is the correct order to properly clean and sanitize food contact surfaces?`,
+    options: [`Scraping, washing, sanitizing, rinsing, air dry`, `Scraping, washing, rinsing, sanitizing, air drying`, `Scraping, sanitizing, rinsing, washing, towel drying`, `Scraping, washing, sanitizing, rinsing, towel drying`],
+    correctIndex: 1
+  },
+  {
+    id: 68,
+    text: `What does the process of sanitizing mean?`,
+    options: [`Removing dirt, soil, and chemicals`, `Allowing it to air dry`, `Killing or reducing pathogens to safe levels`, `All of these`],
+    correctIndex: 2
+  },
+  {
+    id: 69,
+    text: `When a health inspector arrives, you should do all of the following except`,
+    options: [`ask for identification`, `allow inspection without advance notice`, `offer him a gift in exchange for a clean inspection report`, `ask questions if something is not clear`],
+    correctIndex: 2
+  },
+  {
+    id: 70,
+    text: `All food contact surfaces currently in use including equipment and utensils must be washed and sanitized at least once every ___ hours?`,
+    options: [`2`, `4`, `6`, `3`],
+    correctIndex: 1
+  },
+  {
+    id: 71,
+    text: `What do test kits measure in sanitizing solution?`,
+    options: [`Concentration`, `Temperature`, `Color`, `Water Hardness`],
+    correctIndex: 0
   }
 ];
