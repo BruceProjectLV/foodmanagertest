@@ -665,5 +665,245 @@ window.QUESTIONS = [
     text: `A severe allergic reaction to foods is called`,
     options: [`strep throat`, `anaphylaxis`, `food poisoning`, `NA`],
     correctIndex: 1
+  },
+  {
+    id: 112,
+    text: `The MOST important step in maintaining good personal hygiene in a food business is`,
+    options: [`wearing gloves`, `not eating while preparing food`, `washing your hands`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 113,
+    text: `Which of the following is NOT a TCS food?`,
+    options: [`unpeeled banana`, `pizza`, `milk`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 114,
+    text: `The temperature danger zone is between which 2 temperatures?`,
+    options: [`70°F and 135°F`, `41 ° F and 135° F`, `45°F and 135°F`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 115,
+    text: `All of the following statements regarding storing chemicals are true EXCEPT`,
+    options: [`never store chemicals in food containers`, `properly label chemicals if not using its original container`, `chemicals that are properly labeled can be stored next to dry foods such as rice and beans`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 116,
+    text: `Tabletop equipment such as meat slicers should be raised a minimum of __ above the table .`,
+    options: [`1inch`, `3 inches`, `4 inches`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 117,
+    text: `Food handlers with the following illnesses should be reported to the health department due to its contagious nature EXCEPT`,
+    options: [`Strep throat`, `Salmonella Typhi`, `Norovirus`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 118,
+    text: `Which of the following is NOT considered to be a high risk population?`,
+    options: [`adults with chronic health conditions`, `adults between the ages of 20 and 50`, `adults 65 years and older`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 119,
+    text: `Which of the following is NOT required when date marking food products:`,
+    options: [`Date food was`, `Date food must be used by`, `Name of the person who made the food`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 120,
+    text: `An infrared thermometer can be used to measure the`,
+    options: [`internal temperature of a cooked pork roast`, `surface temperature of a chicken breast`, `air temperature of the walk-in cooler`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 121,
+    text: `How long can you keep freshly made potato salad or a freshly opened container of potato salad in the refrigerator for continued serving?`,
+    options: [`4 hours`, `24 hours`, `7 days`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 122,
+    text: `Cold foods in a buffet or salad bar should be held at temperatures no higher than`,
+    options: [`32° F`, `41 ° F`, `51° F`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 123,
+    text: `All of the following are proper ways to limit time and temperature abuse EXCEPT`,
+    options: [`taking only quantities of food out of the refrigerator that will be used right away`, `not refrigerating foods like whole onions, apples and bananas`, `not refrigerating cut`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 124,
+    text: `Cross contamination can be prevented with each of these steps EXCEPT`,
+    options: [`preparing TCS foods and Ready to Eat foods at different times`, `cleaning and sanitizing prep tables between different types of foods`, `tasting foods with the same spoon and using a napkin to wipe the spoon clean between uses`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 125,
+    text: `Ground beef (hamburgers) must be cooked to a minimum internal temperature of`,
+    options: [`145° F for 15 sec.`, `155°F for 15 sec`, `165°F for 15 sec`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 126,
+    text: `When a power outage takes place, all of the following are proper food safety procedures EXCEPT`,
+    options: [`Keep the freezer/refrigerator tightly closed`, `Add blocks of dry ice as a temporary solution`, `Some foods can still be re-frozen if they have been kept below S0° F`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 127,
+    text: `The purpose of grease traps is to`,
+    options: [`collect grease and prevent clogging the drain`, `collect grease for use again`, `prevent a fire`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 128,
+    text: `When reheating hot TCS foods, reheat to`,
+    options: [`135° F for 15 sec. within 2 hrs`, `145° F for 15 sec. within 4 hrs`, `165°F for 15 sec. within 2 hrs`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 129,
+    text: `If you suspect a food borne illness outbreak, all of the following is important EXCEPT`,
+    options: [`Document everything, separate the food and clearly label it DO NOT EAT, DO NOT THROW AWAY`, `Be confrontational to the customer and throw away the food in question`, `Contact the local health department`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 130,
+    text: `All of the statements regarding microwave cooking of TCS foods are correct except`,
+    options: [`they should be cooked to a minimum internal cooking temperature of 165°F`, `stir completely, halfway through cooking, let it stand for at least 2 minutes after cooking for even heat distribution`, `cook uncovered`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 131,
+    text: `Which of the following helps prevent a Hepatitis A outbreak`,
+    options: [`serving shellfish from approved sources`, `purchasing fruits from any source with the lowest price`, `properly cleaning vegetables with non-potable water`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 132,
+    text: `Handwashing sinks require all of the following EXCEPT:`,
+    options: [`paper towels or hot air dryer`, `liquid hand soap`, `hand sanitizer`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 133,
+    text: `All of the following practices can help prevent cross contamination during food preparation EXCEPT`,
+    options: [`properly washing and sanitizing cutting boards between raw and ready to eat foods`, `using color coded cutting boards`, `using the same knife to cut raw pork and raw chicken`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 134,
+    text: `Which of the following is a correct storage practice?`,
+    options: [`storing products based on expiration date, the products with closer expiration dates in the front`, `non-food containers can be re-used to store food as long as they are properly washed and sanitized`, `chemicals can be stored next to food`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 135,
+    text: `Food contact surfaces in constant use must be cleaned and sanitized at least once every`,
+    options: [`2 hours`, `4 hours`, `6 hours`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 136,
+    text: `If you suspect a food borne illness outbreak, all of the following are important to collect EXCEPT`,
+    options: [`General information, such as contact information and time and date the person felt sick`, `How much the customer paid for the meal and to submit their complaint in writing`, `The food that was eaten and information regarding their symptoms`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 137,
+    text: `Upon inspection of a shipment of fresh steaks, when should you reject the shipment?`,
+    options: [`the steaks have an internal temperature of 38°F`, `the flesh is soft and turning brown and have a strong smell`, `the flesh is firm and has a bright red color`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 138,
+    text: `Which symptom can a food handler continue working without restrictions?`,
+    options: [`Sore throat with fever`, `Sneezing`, `Diarrhea`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 139,
+    text: `Which of the following statements about bi-metallic stemmed thermometers is INCORRECT`,
+    options: [`when properly calibrated, they are accurate +/-2`, `they do not contain mercury`, `they are usually used for taking surface temperature of foods`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 140,
+    text: `Protective shields are important for light fixtures to prevent`,
+    options: [`physical contamination by shattered`, `electrical fires`, `blindness from brightness`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 141,
+    text: `Which of the following is a correct serving procedure`,
+    options: [`Re-serving untouched food that was returned by a customer`, `Re-using of garnishes to decorate foods`, `Re-using unopened individually packaged ketchup packets`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 142,
+    text: `What tool is the most accurate to use to check the temperature of a large rib roast?`,
+    options: [`Bimetallic stemmed thermometer`, `Immersion probe`, `Infrared thermometer`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 143,
+    text: `Where can food handlers wash their hands?`,
+    options: [`Sinks designated for handwashing only`, `In the utility sink where food is not prepared`, `Any sink available where food is not prepared`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 144,
+    text: `A customer complains that she found hair in her soup. This is an example of which hazard?`,
+    options: [`biological`, `cross contamination`, `physical`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 145,
+    text: `Hot foods in a buffet should be held at __ temperature or above`,
+    options: [`135° F`, `140° F`, `165° F`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 146,
+    text: `Written procedures must be in place EXCEPT`,
+    options: [`When receiving a food delivery`, `A new law is enacted`, `When cleaning up vomit`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 147,
+    text: `HACCP uses active managerial control for the purpose of`,
+    options: [`training food handlers correctly`, `preventing food borne illnesses through identifying and controlling hazards`, `preventing security threats to the food business`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 148,
+    text: `Written procedures must be in place EXCEPT`,
+    options: [`When checking how foods are stored in the freezer`, `When changing pest control companies`, `When a food business has a variance`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 149,
+    text: `Bacteria need all of the following to grow`,
+    options: [`Protein, water, and ideal temperatures`, `Light, water, and high pH`, `Protein, light, and low pH (acidic environment)`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 150,
+    text: `To prevent possible seafood foodborne illess caused by toxins, all of the follwong are important EXCEPT`,
+    options: [`cook fish to an internal temperature of 135° F`, `receive fish at 41° F or lower`, `reject fish with dull, sunken eyes and soft sticky flesh`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 151,
+    text: `Foods stored in the dry storage area should be elevated how many inches off the ground to ensure proper pest control?`,
+    options: [`4`, `6`, `12`, `NA`],
+    correctIndex: 1
   }
 ];
