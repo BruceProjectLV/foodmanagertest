@@ -425,5 +425,245 @@ window.QUESTIONS = [
     text: `What do test kits measure in sanitizing solution?`,
     options: [`Concentration`, `Temperature`, `Color`, `Water Hardness`],
     correctIndex: 0
+  },
+  {
+    id: 72,
+    text: `All of the following should be rejected upon delivery EXCEPT`,
+    options: [`shellfish that have shellstock ID`, `packages with missing labels`, `cans that are rusty`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 73,
+    text: `All food delivery vehicles should`,
+    options: [`have proper signage on the doors`, ``, `have clean and sanitary conditions`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 74,
+    text: `All of the following are true for canned goods EXCEPT`,
+    options: [`must be checked for leaks, dents, rust, missing labels`, `must be purchased at the lowest price possible`, `must be stored according to FIFO`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 75,
+    text: `First In, First Out" (FIFO) refers to the safe food handling practice of`,
+    options: [`using products that were just received`, `using older products that were received first`, `using products that are expired`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 76,
+    text: `Which of the following is a TCS food?`,
+    options: [`an unopened UHT coffee creamer`, `a loaf of bread`, `sliced melons`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 77,
+    text: `Which container is preferred to hold leftover spaghetti sauce in the cooler?`,
+    options: [`covered food pan`, `uncovered plastic container`, `copper pot`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 78,
+    text: `What is the primary problem with cutting raw foods together on the same cutting board with cooked foods?`,
+    options: [`physical contamination`, `cross-contamination`, `cross-connection`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 79,
+    text: `What is the BEST way to prevent foodborne illnesses?`,
+    options: [`wearing a hair net`, `don't eat, drink or smoke while preparing food`, `frequent and effective handwashing`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 80,
+    text: `Which of the following is a safe food service practice?`,
+    options: [`thawing chicken in warm water`, `putting a large pot of soup into shallow pans for cooling`, `using the same spoon to add peanuts and granola topping on ice cream`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 81,
+    text: `Where can food handlers smoke or eat?`,
+    options: [`in food storage area`, `in designated areas`, `in the dishwashing area`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 82,
+    text: `Date marking is necessary for ready-to-eat or prepared TCS foods if they will be kept for longer than:`,
+    options: [`12 hours`, `24 hours`, `7 days`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 83,
+    text: `Which action DOES NOT require food handlers to wash their hands and change gloves in order to prevent contamination?`,
+    options: [`after checking your phone`, `after using the bathroom`, `before taking out the trash`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 84,
+    text: `Before raw fruits and vegetables are cooked or served, they should be thoroughly washed with`,
+    options: [`vinegar`, `potable water`, `non-potable water`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 85,
+    text: `What is the best method to check the temperature of food on a buffet line?`,
+    options: [`make sure the thermostat is checked every 6`, `check to see that steam is rising from the hot food`, `insert a thermometer into the food`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 86,
+    text: `Machine dishwashing requires all of the following EXCEPT`,
+    options: [`routine checking for clogged spray nozzles or mineral deposit build`, `sanitizing temperature of at least 180°F`, `sanitizing temperature of at least 180°F`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 87,
+    text: `Wiping cloths used for wiping counters and should be`,
+    options: [`stored in hot water`, `stored in a sanitizing solution`, `washed in the dishwasher`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 88,
+    text: `Chemical sanitizing solutions`,
+    options: [`should have its concentration checked with a test`, `should only be used when hot water is not available`, `do not need to be properly labelled`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 89,
+    text: `Which chemical is not an approved sanitizing agent:`,
+    options: [`chlorine`, `delimer`, `iodine`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 90,
+    text: `When cleaning and sanitizing electrical appliances, what should be done first?`,
+    options: [`use a wet cloth to wipe down the exterior surfaces`, `wash, rinse and sanitize the food contact surfaces only`, `disconnect the power`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 91,
+    text: `Responsibilities of a food manager include the following EXCEPT:`,
+    options: [`Keeping a log of employee health history`, `Training only cooking staff regarding dishes with food allergens`, `Making sure food is delivered and received during non-busy hours of the restaurant`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 92,
+    text: `Using detergents for cleaning food equipment allows:`,
+    options: [`Dirt and bacteria to be washed`, `Less sanitizing solution to be used`, `The sanitizing process to be skipped`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 93,
+    text: `Drinking liquids is permitted while working under the following conditions:`,
+    options: [`The drink is covered with a lid and can be consumed through a straw`, `Any container as long it is away from the food preparation area`, `Through a bottle with the lid closed when not being consumed`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 94,
+    text: `What do bacteria need in order to grow?`,
+    options: [`Heat and air`, `Water and protein`, `Acid and sugar`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 95,
+    text: `When a food employee has an infected cut or burn, what should they know?`,
+    options: [`They can continue to work with no restrictions`, `The infected area can contain bacteria that can cause food borne illness`, `They can continue to work by wearing gloves`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 96,
+    text: `The best way to train employees and kitchen staff is through`,
+    options: [`written memos`, `clear verbal instructions`, `live demonstration`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 97,
+    text: `Smoking and eating is not permitted in the food prep area`,
+    options: [`unless the food handler washes their hands before and after`, `because other kitchen staff may not like it`, `because of possible contamination by the food handler through saliva transfer`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 98,
+    text: `Before manually washing dishes in the 3 compartment sink, the first thing that needs to be done is to`,
+    options: [`add clean water to the first and second`, `clean and sanitize all 3 compartments of the sink`, `add detergent to the first compartment`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 99,
+    text: `Which of the following statements regarding dumpsters and recyclables is FALSE`,
+    options: [`they should be located as far away from the building as local regulations permit`, `they should be clean and tightly covered`, `they can overflow as long as they are regularly cleaned`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 100,
+    text: `Which of the following is correct regarding food allergens?`,
+    options: [`They come from harmful bacteria`, `They cannot be eliminated or cooked out`, `A variance is required when serving foods with food allergens`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 101,
+    text: `Which of the following statements regarding cleaners is FALSE`,
+    options: [`abrasive cleaners remove relatively heavy amounts of dirt, stains, and hard water deposits by scraping`, `degreasers dissolve grease and oil`, `detergents are cleaners that clean by sanitizing surfaces`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 102,
+    text: `Pests are growing in numbers. Which step can prevent the problem from getting worse?`,
+    options: [`Clean up any leftover food on tables and floors`, `Open windows and doors during business hours`, `Leave trash cans uncovered`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 103,
+    text: `The 2-stage cooling process allows for a maximum of how many hours in the temperature danger zone?`,
+    options: [`3 hours`, `4 hours`, `6 hours`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 104,
+    text: `A bag of flour in the storage room`,
+    options: [`can be placed on a clean, dry floor`, `should be placed on a shelf 6 inches from the floor and wall`, `should be placed on a shelf 12 inches from the floor and wall`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 105,
+    text: `Toxic metal poisoning is caused when certain metals`,
+    options: [`are heated on high heat and toxins are released into the foods`, `like gold, silver, and aluminum are mixed with acidic foods and toxins are produced`, `like copper, brass and tin are mixed with acidic foods and toxins are produced`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 106,
+    text: `When packaging food for sale in your restaurant, which of the following is NOT required?`,
+    options: [`date the food was made or sell by date`, `nutrition information`, `ingredient list`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 107,
+    text: `A food establishment that has a sewage backup on its premise must close`,
+    options: [`immediately`, `within 4 hours`, `within 6 hours`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 108,
+    text: `When receiving frozen foods, reject shipments when`,
+    options: [`meats are colder than O degrees Fahrenheit`, `the expiration date is valid`, `there is presence of large ice crystals around the packaging`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 109,
+    text: `What items can customers re-use in a buffet line?`,
+    options: [`tableware such as forks, spoons and knives`, `plates`, `cups and glasses`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 110,
+    text: `Which of these is a UHT (Ultra High Temperature) food?`,
+    options: [`canned tuna`, `single use ketchup`, `some types of coffee creamers`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 111,
+    text: `A severe allergic reaction to foods is called`,
+    options: [`strep throat`, `anaphylaxis`, `food poisoning`, `NA`],
+    correctIndex: 1
   }
 ];
