@@ -905,5 +905,245 @@ window.QUESTIONS = [
     text: `Foods stored in the dry storage area should be elevated how many inches off the ground to ensure proper pest control?`,
     options: [`4`, `6`, `12`, `NA`],
     correctIndex: 1
+  },
+  {
+    id: 152,
+    text: `A foodborne outbreak is when`,
+    options: [`2 or more people get sick after eating different foods`, `2 or more people get sick from eating the same food from the same place, and having the same symptoms`, `3 or more people get sick from eating at the same restaurant`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 153,
+    text: `The temperature of food held on a buffet line should be checked at least every`,
+    options: [`4 hours`, `6 hours`, `once a day`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 154,
+    text: `Which pathogen is usually associated with contaminating leafy green produce such as romaine lettuce?`,
+    options: [`Triquinosis`, `Hepatitis B virus`, `E.coli`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 155,
+    text: `What is the proper procedure for washing your hands?`,
+    options: [`run hot water, apply soap, scrub hands and arms, rinse hands, dry hands`, `run cold water, apply soap, scrub hands and arms, rinse hands, dry hands`, `run hot water, apply soap, scrub hands and arms, apply sanitizer, dry hands`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 156,
+    text: `What agencies oversee food safety in your food business?`,
+    options: [`state and local health departments`, `USDA`, `CDC`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 157,
+    text: `Which of the following statements about Safety Data Sheets (SDS) is FALSE?`,
+    options: [`they provide important information about the chemical's hazards, safe handling, and first aid instructions`, `if you are familiar with the chemical, you do not need to keep the SDS's on file`, `store bought chemicals provide SDS information on the back of the label`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 158,
+    text: `Which of these is an example of time-temperature abuse`,
+    options: [`holding potato salad at 40°F`, `holding clam chowder at 125° F`, `microwave reheating of chili to 165° F for 15 sec`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 159,
+    text: `If a food handler is diagnosed with Shiga-toxin producing E.Coli, the manager must`,
+    options: [`close the food business`, `send the food handler home and notify the health department`, `assign the food handler to non-food duties`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 160,
+    text: `What are common symptoms of foodborne illness?`,
+    options: [`soreness, itching, fatigue`, `fever, vomiting, diarrhea`, `headache, irritability, thirst`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 161,
+    text: `When entering a walk-in cooler, which of the following needs to be corrected?`,
+    options: [`raw ground beef is stored on a shelf above a tray of pork`, `loosely covered lasagna is cooling on the top shelf`, `frozen turkey is thawing in a pan on the bottom shelf`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 162,
+    text: `A large pot of chili must be cooled from 135°F to 70° F within_ hours and from 70°F to 41° F or lower within an additional hours.`,
+    options: [`2, 4`, `4, 2`, `2, 6`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 163,
+    text: `What is the correct way to cool a large pot of soup?`,
+    options: [`place the pot directly into the walk-in freezer and move to the refrigerator after a couple hours`, `immerse the pot in an ice bath while stirring the contents`, `allow the pot to cool at room temperature and then move to the walk in refrigerator`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 164,
+    text: `Written procedures must be in place EXCEPT`,
+    options: [`When changing food suppliers`, `When documenting employee health history`, `When monitoring time and temperature from cooking to cooling`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 165,
+    text: `A food facility is required to have a HACCP plan when`,
+    options: [`serving undercooked eggs`, `serving raw seafood`, `serving undercooked steak`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 166,
+    text: `Which of the following does NOT prevent cross connection?`,
+    options: [`a hose connected to your faucet sitting in a bucket of dirty`, `the air gap between the faucet and bottom of the sink`, `the air gap between the drain pipe and the floor drain`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 167,
+    text: `When receiving a delivery of raw chicken, what food safety practice is most important?`,
+    options: [`make sure the name of the company matches the invoice`, `check to make sure the delivery truck has auto insurance`, `check the temperature of the chicken upon receipt`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 168,
+    text: `Which of these does NOT cause chemical contamination of food?`,
+    options: [`stirring tomato sauce in a copper pot`, `using the correct concentration of quaternary ammonium ppm to sanitize dishes`, `pouring lemon juice in a cup coated with pewter`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 169,
+    text: `When storing raw ground beef and raw salmon, where should the salmon be stored in the refrigerator?`,
+    options: [`above the ground`, `on the same shelf as the ground beef`, `below the ground beef`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 170,
+    text: `Which of the following foods have been properly cooked?`,
+    options: [`fish cooked to an internal temp of 135° F for 15 sec.`, `ground turkey cooked to an internal temp of 165°F for 15 sec.`, `pork chops cooked to an internal temperature of 125° F for 15 sec.`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 171,
+    text: `Which of the following is NOT required for home delivery of food to the customer?`,
+    options: [`delivery vehicle must be clean and sani`, `a label listing food ingredients`, `delivering food as quickly as possible`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 172,
+    text: `When supervising the operations of a food establishment, under what circumstances may food handlers utilize their clean, bare hands?`,
+    options: [`Handling ice`, `Handling a pastry`, `Preparing ingredients that will be cooked`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 173,
+    text: `A food handler opens a container of Ultra High Temperature (UHT) milk from dry storage. How should the food handler store the unused portion?`,
+    options: [`the remaining milk should be placed in the refrigerat`, `the remaining milk should be thrown away if not used within 4 hours`, `the remaining milk can be left at room temperature until used`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 174,
+    text: `When purchasing milk or dairy products, all of the following are required EXCEPT`,
+    options: [`Grade A, Pasteurized`, `Valid Expiration Date`, `USDA Organic`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 175,
+    text: `A food handler is making tuna salad on the same prep table used for preparing raw hamburger patties earlier in the day. An E. Coli outbreak occurs for customers who ordered tuna salad sandwiches. What is the most likely cause of the outbreak?`,
+    options: [`improper cooking temperature of the hamburgers`, `cross-contamination`, `improper cooling`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 176,
+    text: `What is NOT a primary factor when choosing a food supplier?`,
+    options: [`clean and sanitary facility`, `approved and reputable`, `they offer the lowest prices`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 177,
+    text: `Which of the following would be the best temperature for your refrigerator?`,
+    options: [`0 °F`, `39° F`, `45° F`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 178,
+    text: `Which of the following is the correct practice for storing pesticides?`,
+    options: [`they can be stored in the dry storage area`, `they can be stored together with cleaning supplies`, `they must be clearly labeled, stored locked, and stored separately from cleaning supplies and all foods`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 179,
+    text: `Under what condition would you REJECT a shipment of live oysters?`,
+    options: [`the shells are`, `the shells are closed`, `the oysters are delivered with shell stock ID tags`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 180,
+    text: `Which of the following should be washed before cooking or serving?`,
+    options: [`celery and broccoli`, `lemons and cantaloupes`, `all of the above`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 181,
+    text: `Bacteria that cause food intoxication`,
+    options: [`come from toxic`, `can be killed only by heat`, `produce toxins that can be dangerous`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 182,
+    text: `Which of the following is NOT an acceptable way to restrain your hair?`,
+    options: [`A hairnet`, `A ponytail`, `A baseball cap`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 183,
+    text: `Cleaning supplies and tools should be`,
+    options: [`stored together in the dry storage`, `stored together with pesticides`, `in designated areas away from food`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 184,
+    text: `To properly cool an 11-pound roast beef:`,
+    options: [`loosely cover and place on the top shelf of the refrigerator`, `leave out at room temperature until it is properly cooled`, `cut into smaller pieces to increase the surface area for faster cooling`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 185,
+    text: `Presence of brown egg casings is an indication of what pest?`,
+    options: [`Ants`, `Roaches`, `Mice`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 186,
+    text: `Which of the following is most important in reducing or killing microorganisms to safe levels?`,
+    options: [`cooking TCS foods to their minimum internal cooking temperatures`, `storing onions in the refrigerator`, `cleaning and sanitizing food prep areas when switching between Ready-to-Eat foods`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 187,
+    text: `Bacteria grow well in TCS foods with the following conditions:`,
+    options: [`slightly alkaline, moist with no protein`, `slightly alkaline, dry with protein`, `slightly acidic, moist with protein`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 188,
+    text: `Which of the following statements regarding food allergies is FALSE`,
+    options: [`food handlers should be able to identify menu items that contain allergens`, `at least one person in charge must be able to answer specific questions about allergens`, `food allergies usually do not lead to serious reactions`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 189,
+    text: `Which food is safe to eat if cooked to a minimum internal temperature of 135°F for 15 sec?`,
+    options: [`cooked vegetables`, `fish`, `stuffed pasta shells`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 190,
+    text: `What type of contamination can mouse droppings cause?`,
+    options: [`biological`, `cross contamination`, `physical`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 191,
+    text: `What is the ideal temperature for the 1st compartment (wash section) in the 3 compartment sink?`,
+    options: [`70° F`, `110°F`, `135°F`, `NA`],
+    correctIndex: 1
   }
 ];
