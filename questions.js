@@ -1145,5 +1145,245 @@ window.QUESTIONS = [
     text: `What is the ideal temperature for the 1st compartment (wash section) in the 3 compartment sink?`,
     options: [`70° F`, `110°F`, `135°F`, `NA`],
     correctIndex: 1
+  },
+  {
+    id: 192,
+    text: `When the health inspector arrives, what should you do?`,
+    options: [`ask for identification`, `offer them a beer or offer something to eat`, `ask to see their schedule to verify the inspection`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 193,
+    text: `Previously cooked ribs or salmon should be reheated rapidly to a minimum internal temperature of`,
+    options: [`135° F`, `155°F`, `165°F`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 194,
+    text: `Green onions, romaine lettuce, and other fruits and vegetables like melons may be a source of contamination for all the following reasons except`,
+    options: [`they may be grown in soil contaminated with`, `If grown organically, they do not need to be washed before serving`, `they may not have been properly washed before serving`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 195,
+    text: `Which of the following is an improper way to thaw frozen foods?`,
+    options: [`in the microwave and cook immediately`, `under cold stagnant water`, `while cooking in the deep fryer`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 196,
+    text: `Which of the following is the correct way to serve ice?`,
+    options: [`using freshly washed hands`, `while wearing gloves`, `using a scoop with handle`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 197,
+    text: `All of the following are true about ice EXCEPT`,
+    options: [`it is a ready-to- eat`, `it can be used to cool foods and then re-used for drinking`, `it must be made from a clean water source`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 198,
+    text: `Salmonella bacteria is usually found in`,
+    options: [`ground beef`, `poultry and eggs`, `yogurts`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 199,
+    text: `In the event of a food recall, all of the following are important regarding the food item except`,
+    options: [`it must be labeled "Do Not Eat, Do Not Throw`, `it must be discarded`, `it should be matched with information provided on the recall notice`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 200,
+    text: `A food handler with a minor cut is permitted to work when`,
+    options: [`the wound is cleaned and covered with a bandaid`, `the wound is cleaned and the food handler wears a glove`, `the wound is cleaned, covered with an impermeable bandaid or fingercot and the food handler wears gloves`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 201,
+    text: `Hand washing is permitted in these areas`,
+    options: [`in any available sink`, `dishwashing sink`, `only in designated handwashing sinks`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 202,
+    text: `After washing your hands, which method is not permitted for drying your hands?`,
+    options: [`clean cloth towel`, `paper towels`, `hot air machine`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 203,
+    text: `When using a chemical sanitizing solution, ideal water temperature should be`,
+    options: [`50° F`, `75° F`, `130°F`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 204,
+    text: `During man ual dishwashing, plate s and forks that are washed, rin sed, and sanitized should be`,
+    options: [`dried with wiping cloths`, `airdried`, `towe l dried`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 205,
+    text: `How often should food contact surfaces be cleaned?`,
+    options: [`after each use or at least once every 4 hours`, `once a day`, `once a week`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 206,
+    text: `How should cups be stored after being cleaned and sanitized?`,
+    options: [`bottoms down on a clean, dry`, `bottoms down in racks near the dishwashing area`, `away from dirty glasses and cups`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 207,
+    text: `Dry food storage should NOT be located`,
+    options: [`on slatted shelves at least 6 inches off the floor`, `under water pipes`, `away from walls`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 208,
+    text: `How long must Shellstock ID tags be kept on file?`,
+    options: [`90 days from the time they were harvested`, `60 days from the time they were received`, `90 days from the time they were served`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 209,
+    text: `Stationary equipment {Clean in Place) such as meat slicers that are too large to be cleaned in a sink should be cleaned and sanitized by`,
+    options: [`disassembling the parts to wash in the 3- compartment sink`, `increasing the amount of cleaning solution`, `maually using clean in place methods that are self draining of any cleaning and sanitizing solutions`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 210,
+    text: `Trash containers, dumpsters, and receptacles should be easy to clean and`,
+    options: [`located as close to the building as`, `can be located on sand or grass`, `closed with lids and not overflow`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 211,
+    text: `Liquid waste should`,
+    options: [`be dumped in the sink`, `drain through the sewage line`, `be dumped in the toilet`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 212,
+    text: `Consumer advisories are NOT required for which food?`,
+    options: [`organic hamburger patties cooked medium rare`, `oysters served raw from a reputable supplier`, `pasteurized eggs served runny`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 213,
+    text: `Pesticides should be applied by a`,
+    options: [`certified food protection manager`, `health inspector`, `pest control operator (PCO)`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 214,
+    text: `What is the minimum temperature for hot water sanitizing?`,
+    options: [`135° F`, `171°F`, `200°F`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 215,
+    text: `Which of the following statements regarding sanitizing solutions is INCORRECT`,
+    options: [`Water hardness and water temperature affect how well sanitizers`, `Quats sanitizing solution should have a concentration of 12.5`, `Chlorine sanitizing solution should have a concentration of 50 PPM`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 216,
+    text: `Which of the following statements regarding food allergies is FALSE`,
+    options: [`it is an immune response by the body identifying a food as`, `symptoms of food allergies are the same for each person`, `even a small amount of food may trigger a reaction`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 217,
+    text: `Freshly made salsa should be stored`,
+    options: [`at room temperature until it is`, `below trays of raw steaks`, `on the top shelf with ready to eat foods`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 218,
+    text: `Color-coding cutting boards and knives are recommended to help prevent what type of contamination?`,
+    options: [`physical`, `cross-contamination`, `chemical`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 219,
+    text: `After reaching into your wallet to give a co-worker some money, what should you do?`,
+    options: [`change to a new pair of gloves, return to preparing`, `use hand sanitizer, return to preparing food`, `wash hands for 20 seconds, return to preparing food`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 220,
+    text: `Previously cooked meatloaf needs to be reheated to what temperature?`,
+    options: [`135° F`, `155° F`, `165° F`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 221,
+    text: `Each of these food businesses REQUIRE a variance EXCEPT when`,
+    options: [`packaging raw juices for sale without labeling`, `smoking meats to preserve food`, `serving undercooked steaks`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 222,
+    text: `All of the following regarding consumer advisories are correct EXCEPT`,
+    options: [`they inform customers through table tents, menu notices, signs or other written means which menu items are raw or undercooked`, `they inform customers of the increased risk of food borne illness by eating raw or undercooked foods`, `verbal only consumer advisories are acceptable`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 223,
+    text: `Under what conditions is it permissible to wear artificial nails or nail polish when handling food?`,
+    options: [`It is never`, `When adhering to correct handwashing procedures and wearing gloves`, `Only when doubling the handwashing time to 40 seconds`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 224,
+    text: `Steaks should be cooked to an internal cooking temperature of`,
+    options: [`135°F`, `145°F`, `165°F`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 225,
+    text: `During a health inspection, a food manager may be expected to provide which of the following?`,
+    options: [`Business insurance policy`, `Any documented customer complaints`, `Employee payroll information`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 226,
+    text: `Which of the following is a proper concentration for quaternary ammonium as a sanitizing solution?`,
+    options: [`12.5 PPM`, `50 PPM`, `200 PPM`, `NA`],
+    correctIndex: 2
+  },
+  {
+    id: 227,
+    text: `Which of the following describes cross-contact?`,
+    options: [`transfer of allergens from food or food contact surfaces, to food that's served to the customer`, `any physical link between clean water and dirty water`, `when food "crosses" or transfers with a physical, chemical, or biological food hazard`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 228,
+    text: `A food handler is diagnosed with Norovirus, what should be the first thing the food manager should do?`,
+    options: [`Exclude the food handler from the food facility and contact the health department`, `Clean and sanitize the business immediately`, `Assign the food handler to housekeeping duties`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 229,
+    text: `Which of the following statements regarding toxins is correct:`,
+    options: [`They can be eliminated with proper cooking`, `They can cause foodborne illnesses`, `They are easy to kill`, `NA`],
+    correctIndex: 1
+  },
+  {
+    id: 230,
+    text: `Which is NOT a common symptom of an allergic reaction to food?`,
+    options: [`fever and body`, `swelling of the lips, face, tongue, and throat or other parts of the body`, `hives or itchy rashes`, `NA`],
+    correctIndex: 0
+  },
+  {
+    id: 231,
+    text: `Shellstock ID tags must be labeled with`,
+    options: [`the supplier's name, harvest date, location of the`, `harvest date, price, and quality`, `names of the oysters and harvest date`, `NA`],
+    correctIndex: 0
   }
 ];
